@@ -1,2 +1,2 @@
 # hue-myo
-Controlling the lights in my room
+Having fun with Philips Hue lights + Myo Arm Band in my room
