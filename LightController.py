@@ -4,6 +4,13 @@ import requests
 class LightController:
 
     def __init__(self,ip_addr,username):
+        """
+        Create a class instance. The IP address of a Philips Hue bridge and the
+        username of an authorized user are required.
+
+        type ip_addr: str
+        type username: str
+        """
         self.ip_addr  = ip_addr
         self.username = username
         self.url      = "http://"+ip_addr+"/api/"+username
