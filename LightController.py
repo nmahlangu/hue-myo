@@ -57,22 +57,22 @@ class LightController:
             return self.exec_request(self.url+"/lights/"+str(light)+"/state",data=data)
         return False
 
-    def turn_on_all_lights(self):
+    def turn_on_all_lights(self,transition_time=None):
         """
         Turn on all lights.
         """
         retval = True
         for light in self.lights:
-            retval = retval and self.turn_on_light(light)
+            tmp = retval and self.turn_on_light(light,transition_time) if transition_time != None else self.turn_on_light(light)
         return retval
 
-    def turn_off_all_lights(self):
+    def turn_off_all_lights(self,transition_time=None):
         """
         Turn off all lights.
         """
         retval = True
         for light in self.lights:
-            retval = retval and self.turn_off_light(light)
+            tmp = retval and self.turn_off_light(light,transition_time) if transition_time != None else self.turn_off_light(light)
         return retval
 
     def change_brightness(self,light,br,transition_time=None):
