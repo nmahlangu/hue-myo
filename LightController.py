@@ -7,6 +7,8 @@ class LightController:
         """
         Create a class instance. The IP address of a Philips Hue bridge and the
         username of an authorized user are required.
+        See http://www.developers.meethue.com/documentation/getting-started for
+        where to find these credentials.
 
         type ip_addr: str
         type username: str
@@ -88,7 +90,8 @@ class LightController:
 
     def change_hue(self,light,xy=None,ct=None,hue=None,sat=None,transition_time=None):
         """
-        Change the hue (color) of a light.
+        Change the hue (color) of a light. xy takes presidence over ct, which takes
+        presidence over hue.
 
         type xy: int[]
         type ct: int
@@ -131,7 +134,7 @@ class LightController:
 
     def alert(self,light):
         """
-        Make a light do a blink.
+        Make a light blink.
 
         type light: int
         """
