@@ -113,7 +113,7 @@ class LightController:
 
     def end_color_loop(self,light):
         """
-        Turn off color looping mode in a light.
+        Turn off color looping mode for a light.
 
         type light: int
         """
@@ -124,7 +124,7 @@ class LightController:
 
     def alert(self,light):
         """
-        Make the light do a blink.
+        Make a light do a blink.
 
         type light: int
         """
