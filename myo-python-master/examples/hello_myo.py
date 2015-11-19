@@ -61,6 +61,7 @@ class Listener(libmyo.DeviceListener):
             for comp in self.emg:
                 parts.append(str(comp).ljust(5))
         print('\r' + ''.join('[{0}]'.format(p) for p in parts), end='')
+        print("")
         sys.stdout.flush()
 
     def on_connect(self, myo, timestamp, firmware_version):
