@@ -22,7 +22,6 @@ url = "http://"+creds["ip_addr"]+"/api/"+creds["username"]+"/lights/2/state"
 # 	last = not last
 # 	print r.text
 
-# url = "http://192.168.2.3/api/39e3442017e1190f35cb8070213e28ff/groups/0"
 # r = requests.get(url)
 # d = json.loads(r.text)
 # print [int(n) for n in d["lights"]]
