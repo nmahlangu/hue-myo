@@ -4,9 +4,11 @@ import sys
 import json
 import random
 import time
+import credentials
 
 # randomly flash colors
-url = "http://192.168.2.2/api/39e3442017e1190f35cb8070213e28ff/lights/2/state"
+creds = credentials.get_credentials()
+url = "http://"+creds["ip_addr"]+"/api/"+creds["username"]+"/lights/2/state"
 # for i in xrange(1,41):
 # 	n = int(random.random() * 60000)
 # 	r = requests.put(url,data=json.dumps({"on":True, "sat":254, "bri":254,"hue":n,"transitiontime":0}))
@@ -28,6 +30,7 @@ url = "http://192.168.2.2/api/39e3442017e1190f35cb8070213e28ff/lights/2/state"
 
 # print json.loads(requests.get(url).text)["lights"]
 
-requests.put(url,data=json.dumps({"on":True,"transitiontime":0,"sat":254,"bri":254,"hue":30000}))
-time.sleep(1)
-requests.put(url,data=json.dumps({"on":False,"transitiontime":0}))
+# requests.put(url,data=json.dumps({"on":True,"transitiontime":0,"sat":254,"bri":254,"hue":30000}))
+# time.sleep(1)
+# requests.put(url,data=json.dumps({"on":False,"transitiontime":0}))
+

@@ -1,5 +1,6 @@
 import json
 import requests
+import credentials
 
 class LightController:
 
