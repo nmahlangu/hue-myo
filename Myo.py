@@ -1,42 +1,67 @@
 import myo as libmyo; libmyo.init('/Users/Nicholas/Documents/cs/git/hue-myo/sdk/myo.framework')
 import time
 import sys
+import credentials
+import LightController
 
 class Listener(libmyo.DeviceListener):
 
     def __init__(self):
+        # myo
         super(Listener, self).__init__()
         self.orientation = None 
         self.pose = libmyo.Pose.rest
         self.locked = False
+        # hue lights
+        creds = credentials.get_credentials()
+        self.lc = LightController.LightController(creds["ip_addr"],creds["username"])
+        self.lc.reset_lights_to_white()
 
-    # Is called when the Myo arm band is connected via Bluetooth.
-    def on_connect(self, myo, timestamp, firmware_version):
+    def on_connect(self,myo,timestamp,firmware_version):
+        """
+        Is called when the Myo arm band is connected via Bluetooth.
+        """
         myo.vibrate('short')
-        print "Connected to Myo"
         time.sleep(1)
 
-    # Is called whenever the Myo arm band detects a new pose.
-    def on_pose(self, myo, timestamp, pose):
+    def on_pose(self,myo,timestamp,pose):
+        """
+        Is called whenever the Myo arm band detects a new pose.
+        """
         self.pose = pose
         self.handler(pose=pose)
 
-    # Is called whenever the Myo arm band detects a new orientation.
-    def on_orientation_data(self, myo, timestamp, orientation):
+    def on_orientation_data(self,myo,timestamp,orientation):
+        """
+        Is called whenever the Myo arm band detects a new orientation.
+        """
         self.orientation = orientation
         self.handler(orientation=orientation)
 
-    # Handles all data updates
-    def handler(self, pose=None, orientation=None):
-        if pose:
-            print "pose: ", pose
-        # if orientation:
-        #     print "orientation: ", orientation
-
-
-
-
-
+    def handler(self,pose=None,orientation=None):
+        """
+        Handles all pose and orientation data updates.
+        """
+        if pose == libmyo.Pose.double_tap:
+            print "pose: double_tap"
+            for light in self.lc.lights:
+                self.lc.change_hue(light,xy=[0.3227,0.329])
+        elif pose == libmyo.Pose.fingers_spread:
+            print "pose: fingers_spread"
+            for light in self.lc.lights: 
+                self.lc.change_hue(light,xy=[0.6679,0.3181])
+        elif pose == libmyo.Pose.wave_in:
+            print "pose: wave_in"
+            for light in self.lc.lights:
+                self.lc.change_hue(light,xy=[0.1691,0.0441])
+        elif pose == libmyo.Pose.wave_out:
+            print "pose: wave_out"
+            for light in self.lc.lights:
+                self.lc.change_hue(light,xy=[0.4149,0.1776])
+        elif pose == libmyo.Pose.fist:
+            print "pose: fist"
+            for light in self.lc.lights:
+                self.lc.change_hue(light,xy=[0.41,0.51721])
 
 def main():
     print("Connecting to Myo ... Use CTRL^C to exit.")

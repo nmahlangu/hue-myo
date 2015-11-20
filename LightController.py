@@ -1,6 +1,7 @@
 import json
 import requests
 import credentials
+import time
 
 class LightController:
 
@@ -101,11 +102,11 @@ class LightController:
         type transition_time: int
         """
         if light in self.lights:
-            if xy and 0 <= x <= 1 and 0 <= y <= 1:
+            if xy and 0 <= xy[0] <= 1 and 0 <= xy[1] <= 1:
                 data = json.dumps({"xy":xy,"transitiontime":transition_time}) if transition_time != None else json.dumps({"xy":xy})
             elif ct and 153 <= ct <= 500:
                 data = json.dumps({"ct":ct,"transitiontime":transition_time}) if transition_time != None else json.dumps({"ct":ct})
-            elif hue and 0 <= hue <= 65535 and sat and 0 <= sat <= 254:
+            elif hue and 0 <= hue <= 65535 and sat and 1 <= sat <= 254:
                 data = json.dumps({"hue":hue,"sat":sat,"transitiontime":transition_time}) if transition_time != None else json.dumps({"hue":hue,"sat":sat})
             if data:
                 return self.exec_request(self.url+"/lights/"+str(light)+"/state",data)
@@ -143,3 +144,13 @@ class LightController:
             data = json.dumps({"alert":"select"})
             return self.exec_request(self.url+"/lights/"+str(light)+"/state",data)
         return False
+
+    def reset_lights_to_white(self):
+        """
+        Turn off all lights, then turn on all lights and set to maximum white 
+        brightness.
+        """
+        self.exec_request(self.url+"/groups/0/action",json.dumps({"on": False}))
+        time.sleep(1)
+        data = json.dumps({"on":True,"bri":255,"hue":0,"sat":0})
+        return self.exec_request(self.url+"/groups/0/action",data)
