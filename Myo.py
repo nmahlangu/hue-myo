@@ -1,16 +1,8 @@
-# from __future__ import print_function
-
 import myo as libmyo; libmyo.init('/Users/Nicholas/Documents/cs/git/hue-myo/sdk/myo.framework')
 import time
 import sys
 
 class Listener(libmyo.DeviceListener):
-    """
-    Listener implementation. Hub is stopped if any function returns
-    False.
-    """
-
-    interval = 0.05 # Output only 0.05 seconds
 
     def __init__(self):
         super(Listener, self).__init__()
@@ -18,30 +10,28 @@ class Listener(libmyo.DeviceListener):
         self.pose = libmyo.Pose.rest
         self.locked = False
 
-
+    # Is called when the Myo arm band is connected via Bluetooth.
     def on_connect(self, myo, timestamp, firmware_version):
-        """
-        Is called when the Myo arm band is connected via Bluetooth.
-        """
-        myo.vibrate('short')
         myo.vibrate('short')
         print "Connected to Myo"
+        time.sleep(1)
 
+    # Is called whenever the Myo arm band detects a new pose.
     def on_pose(self, myo, timestamp, pose):
-        """
-        Is called whenever the Myo arm band detects a new pose.
-        """
         self.pose = pose
-        print pose
-        # TODO: handle pose
+        self.handler(pose=pose)
 
+    # Is called whenever the Myo arm band detects a new orientation.
     def on_orientation_data(self, myo, timestamp, orientation):
-        """
-        Is called whenever the Myo arm band detects a new orientation.
-        """
         self.orientation = orientation
-        print orientation
-        # TODO: handle orientation
+        self.handler(orientation=orientation)
+
+    # Handles all data updates
+    def handler(self, pose=None, orientation=None):
+        if pose:
+            print "pose: ", pose
+        # if orientation:
+        #     print "orientation: ", orientation
 
 
 
