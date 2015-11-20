@@ -4,6 +4,4 @@ credentials.txt
 .DS_Store
 credentials.pyc
 myo_notes.txt
-hue-myo.sublime-project
-hue-myo.sublime-workspace
 Myo.pyc

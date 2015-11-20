@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"turn",
+				"turn_on_all_lights"
+			],
+			[
+				"st",
+				"start_color_loop"
+			],
+			[
+				"turn_on_",
+				"turn_on_all_lights"
+			],
+			[
+				"change",
+				"change_brightness"
+			],
+			[
+				"None",
+				"None"
+			],
+			[
+				"transi",
+				"transition_time"
+			],
+			[
+				"time",
+				"transition_time"
+			],
+			[
+				"trn",
+				"transition_time"
+			],
+			[
+				"turn_",
+				"turn_on_light"
+			],
+			[
+				"tran",
+				"transition_time"
+			],
+			[
+				"out",
+				"output_f"
+			],
+			[
+				"num",
+				"num_failed"
+			],
+			[
+				"req",
+				"req_template"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"pass",
+				"pass"
+			],
+			[
+				"password",
+				"password"
+			],
+			[
+				"fun",
+				"func_addr"
+			],
+			[
+				"ret",
+				"ret_addr"
+			],
+			[
+				"file",
+				"file_str"
+			],
+			[
+				"padding",
+				"padding_length"
+			],
+			[
+				"value",
+				"value_addr"
+			],
+			[
+				"padd",
+				"padding_length"
+			],
+			[
+				"to",
+				"total_overflow_length"
+			],
+			[
+				"attack",
+				"attack_code"
+			],
+			[
+				"attac",
+				"attack_code"
+			],
+			[
+				"http",
+				"http_request_headers"
+			],
+			[
+				"candida",
+				"candidate_sum"
+			],
+			[
+				"candid",
+				"candidate_sum"
+			],
+			[
+				"person",
+				"person_url"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Myo.py",
+			"settings":
+			{
+				"buffer_size": 4489,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 566.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Nicholas/Documents/cs/git/hue-myo/get_credentials.py",
+		"/Users/Nicholas/Documents/cs/git/hue-myo/credentials.txt",
+		"/Users/Nicholas/Documents/cs/git/hue-myo/notes_conf.txt",
+		"/Users/Nicholas/Documents/cs/git/hue-myo/LightController.py",
+		"/Users/Nicholas/Documents/cs/git/hue-myo/light_test.py",
+		"/Users/Nicholas/Dropbox/Desktop/test.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/ex1-keys.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/hash.c",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/ex4-attack-description.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/ex2-plaintext-passwords.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/example_request.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/:: example request",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/notes.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/chatmax-min-pretty.js",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/chatmax-min.js",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/README.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/password_cracker_output.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/assembly_for_calc.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/format_user_and_pass.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/password_cracker.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/plaintext-password-table.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/create_pretty_password_table.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/ex1-plaintext-password-table.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-2/readelf.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-2/strace.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-2/strings.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/ext1-keys.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-2/chatmax-min.js (formatted)",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/john.txt",
+		"/Users/Nicholas/Desktop/test.py",
+		"/Users/Nicholas/Desktop/password_cracker.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/decrypt.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/decrypted_passworddb.bin",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/home.js",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-2-lab/leaked-app/home.html",
+		"/Users/Nicholas/Documents/cs/git/algorithms/AllZeroesConnectedInMatrix.py",
+		"/Users/Nicholas/Desktop/fib.yp",
+		"/Users/Nicholas/Documents/cs/git/algorithms/CircularArrayOfRelativeIndices.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/LinkedListCycle.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/MinimumEditDistanceBetween2Strings.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/RedBlueBlueRed.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2f.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/SetPowerset.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/bugs.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/http.c",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/bugs2.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/zookfs",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/shellcode.S",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/zookfs.c",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2c.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/zookd.c",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-3.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2e.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-4b.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2d.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2b.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-2a.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/Makefile",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/answers.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/shellcode_original.S",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/exploit-template.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/._shellcode.S",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/shellcode_string.txt",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/shellcode.bin",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/hex_to_shellcode.py",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/project-1-lab/shellcode.hex",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 263/Projects/project-1/lab/shellcode.bin",
+		"/Users/Nicholas/Documents/cs/cs263/lab/Makefile",
+		"/Users/Nicholas/Documents/cs/cs263/lab/exploit-template.py",
+		"/Users/Nicholas/Documents/cs/cs263/lab/exploit-2b.py",
+		"/Users/Nicholas/Documents/cs/cs263/lab/bugs/2/small_input.txt",
+		"/Users/Nicholas/Documents/cs/cs263/lab/z_client.py",
+		"/Users/Nicholas/Documents/cs/cs263/lab/bugs/2/bug2.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/bugs/1/generate_input.py",
+		"/Users/Nicholas/Documents/cs/cs263/lab/bugs/1/bug1.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/http.h",
+		"/Users/Nicholas/Documents/cs/cs263/lab/zookld.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/zookfs.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/zookd.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/run-shellcode.c",
+		"/Users/Nicholas/Documents/cs/cs263/lab/http.c",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 165/Problem Sets/nmahlangu-cs165/project 3/btree.h",
+		"/Users/Nicholas/Dropbox/Documents/Harvard/CS 165/Problem Sets/nmahlangu-cs165/project 3/server.c",
+		"/Users/Nicholas/Downloads/VMware.Fusion.v8.0.0.MacOSX.Incl.Keymaker-EMBRACE/embrace.nfo",
+		"/Users/Nicholas/Documents/cs/git/algorithms/ContactDeduplication.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/Circle.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/ConcatenateWordsToFormPalindrome.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/AbstractDataTypeWithLast.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/MergeTwoSortedLists.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/4Sum.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/3SumClosest.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/Boggle.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/GeneratePowerset.py",
+		"/Users/Nicholas/Dropbox/Documents/cs/Projects/quick-fb-messaging/fb.py",
+		"/Users/Nicholas/Documents/cs/git/algorithms/ReverseInteger.py",
+		"/Users/Nicholas/Dropbox/Documents/CS/Interviews/2015/Algorithms/ZigZagConversion.py",
+		"/Users/Nicholas/Documents/cs/projects/extended_token.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-",
+			"#",
+			"type ",
+			"return True if r.status_code == 200 else False",
+			"r ",
+			"r",
+			"ip_addr",
+			"Possible",
+			"│",
+			"gdb",
+			"line",
+			"password_cracker_output",
+			"USERNAME_FILE",
+			"PASSWORD_FILE",
+			"INPUT_FILE",
+			"dir_join",
+			"url_de",
+			"url_deco",
+			"counter",
+			"url_decode",
+			"url_decod",
+			"url_deco",
+			"url_decode",
+			"pn",
+			"strcat",
+			"fd",
+			"];",
+			"handler",
+			"http_serve",
+			"http_server",
+			"split_path",
+			"printf",
+			"handler",
+			"c",
+			"400",
+			"process_clie",
+			"nsvcs",
+			"url_decod",
+			"url_d",
+			"success",
+			"url_decode",
+			"tree_initializer",
+			"#",
+			"self.name",
+			"Node",
+			"node",
+			"Node",
+			"continuee",
+			"sum",
+			"positive",
+			"sum",
+			"n "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Myo.py",
+					"settings":
+					{
+						"buffer_size": 4489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.756627793163,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
