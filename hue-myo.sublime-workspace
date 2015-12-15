@@ -123,14 +123,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Myo.py",
-			"settings":
-			{
-				"buffer_size": 4489,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -172,6 +164,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Nicholas/Documents/cs/git/hue-myo/myo-python-master/examples/hello_myo.py",
+		"/Users/Nicholas/Documents/cs/git/hue-myo/Myo.py",
 		"/Users/Nicholas/Documents/cs/git/hue-myo/get_credentials.py",
 		"/Users/Nicholas/Documents/cs/git/hue-myo/credentials.txt",
 		"/Users/Nicholas/Documents/cs/git/hue-myo/notes_conf.txt",
@@ -355,40 +349,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "Myo.py",
-					"settings":
-					{
-						"buffer_size": 4489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
 			"sheets":
 			[
 			]
@@ -411,12 +371,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -427,7 +381,6 @@
 		"rows":
 		[
 			0.0,
-			0.756627793163,
 			1.0
 		]
 	},
