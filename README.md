@@ -1,4 +1,4 @@
-# hue-myo
+# Hue-Myo
 This project combines two pieces of cool hardware I have in my dormitory: [Philips Hue](http://www2.meethue.com/en-us/) + [Myo Gesture Control Armband](https://www.myo.com/). 
 
 ## Files
